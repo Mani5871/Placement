@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int MoonWalk( int CurC, int CurR , int TR , int TC)
+int MoonWalk( int CurR, int CurC , int TR , int TC)
 {
 if(CurR > TR ||CurC > TC)
 return 0;
